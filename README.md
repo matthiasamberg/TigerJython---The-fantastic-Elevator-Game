@@ -8,7 +8,7 @@ intelligently and move as many passengers as possible.
 ## Introduction Video (currently in German only)
 An introduction on what to do and some tips and tricks is available as video on Youtube:
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/skn4qAwZkg/0.jpg)](http://www.youtube.com/watch?v=skn4qAwZkg "The fantastic Elevator Game")
+[![The fantastic Elevator Game](https://img.youtube.com/vi/skn4qAwZkg/0.jpg)](https://www.youtube.com/watch?v=skn4qAwZkg "The fantastic Elevator Game")
 
 
 ## Documentation (currently in German only)
