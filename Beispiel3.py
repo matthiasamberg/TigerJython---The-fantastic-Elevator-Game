@@ -2,10 +2,14 @@ import globalvars
 from gamestate import *
 import random
 
+direction = "up"
 def play():
-   obersterStock = getNumFloors() - 1
-   zufaelligerStock = random.randint(0, obersterStock)
-   setElevatorDestination(zufaelligerStock)
+    global direction #diese Variable ist 'global' d.h. überall im Programm zugreifbar.
+    
+    if direction == "up":
+        naechsterStock = getCurrentFloor() + 1
+    
+    setElevatorDestination(naechsterStock)
 
 
     

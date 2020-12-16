@@ -8,6 +8,8 @@ import random
 # auch wenn er schon zuoberst angelangt ist.
 def play():
     naechsterStock = getCurrentFloor() + 1
+    
+    
     setElevatorDestination(naechsterStock)
    
 
