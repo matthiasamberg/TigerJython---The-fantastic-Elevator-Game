@@ -1,5 +1,5 @@
 from gamegrid import *
-
+import os
 
 class ElevatorActor(Actor):
     def __init__(self, pelevatorGraphics, elevator):
@@ -7,7 +7,7 @@ class ElevatorActor(Actor):
         self.elevator = elevator
         self.id = elevator.getElevatorId()
 
-        Actor.__init__(self, "sprites/Elevator.png")
+        Actor.__init__(self, os.getcwd()+"/sprites/Elevator.png")
         self.halfWidth = int(self.getWidth(0)/2)
         self.halfHeight = int(self.getHeight(0)/2)
         self.height = self.getHeight(0)
